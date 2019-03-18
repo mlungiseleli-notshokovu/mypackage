@@ -1,0 +1,2 @@
+# mypackage
+Python Package
