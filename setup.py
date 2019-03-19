@@ -8,7 +8,7 @@ setup(
     description='Mlungiseleli Notshokovu python package',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/mlungiseleli-notshokovu/mypackage',
+    url='https://github.com/mlungiseleli-notshokovu/mypackage.git',
     author='<Mlungiseleli Notshokovu>',
     author_email='<mlungiselelinotshokovu@gmail.com>'
 )
