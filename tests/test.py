@@ -19,4 +19,6 @@ def test_factorial():
 def test_bubble_sort():
     assert sorting.bubble_sort([8, 3, 2, 7, 4]) == [2, 3, 4, 7, 8], 'Correct'
     assert sorting.bubble_sort([19, 3, 2, 7, 4,45,9]) == [2, 3, 4, 7, 9, 19, 45], 'Correct'
- 
+
+def test_reverse():
+        assert recursion.reverse()

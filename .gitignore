@@ -1,1 +1,2 @@
-my_python_package.egg-info
+mypackage.egg-info
+mypackage/__pycache__
