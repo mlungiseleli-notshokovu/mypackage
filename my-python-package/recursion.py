@@ -5,7 +5,6 @@ def sum_array(array):
     
     if len(array) == 0:
         return 0
-    
     else:
         return array[0] + sum_array(array[1:])
         '''
@@ -25,7 +24,7 @@ def fibonacci(n):
              equal to sum of previous two terms
     
     Examples:
-        >>> fibonacci(1)
+        >> fibonacci(1)
         1        
         >> fibonacci(2)
         1
@@ -51,20 +50,18 @@ def factorial(n):
            the previous terms
            
        Examples:
-           >>> factorial(1)
+           >> factorial(1)
            1
-           >>> factorial(3)
+           >> factorial(3)
            6
-           >>> factorial(5)
+           >> factorial(5)
            120
     '''
     if n == 0 or n == 1:
         return 1
     else:
         return n * factorial(n-1)
-    
 
-print(factorial(8))
 def reverse(word):
     
     '''Returns the word in reverse'''
