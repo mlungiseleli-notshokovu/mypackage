@@ -11,7 +11,6 @@ def bubble_sort(items):
                 items[k], items[k+1] = items[k+1], items[k]
     return items
 
-print(bubble_sort([19, 3, 2, 7, 4,45,9]))
 def merge_sort(items):
     
     '''Return array of items, sorted in ascending order'''

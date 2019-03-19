@@ -1,4 +1,4 @@
-import numpy as np
+
 def sum_array(array):
     
     '''Returns a sum of all items in an array'''
@@ -62,14 +62,15 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-def reverse(wordList):
+
+
+def reverse(word):
     
     '''Returns the word in reverse'''
     
-    #wordList = list(word) # convert word to a list
+    wordList = list(word) # convert word to a list
     wordList = wordList[-1::-1] # reverse the list
     result = ''.join(wordList) # join the reversed letters to for a word
         
     return result
     
-print(reverse(['this is a longer sentence that you will need to reverse']))
